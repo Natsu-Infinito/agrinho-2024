@@ -1,0 +1,82 @@
+/*1. formatação da pagina em geral*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*2. formatação do cabeçalho*/
+.header_top {
+    background-color: #006400;
+    width: 100%;
+}
+
+.header_top .header_top_content {
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    /*conteúdo fluído*/
+}
+
+/*3. logo*/
+.header_top .header_top_content .logo {
+    flex-basis: 100px;
+    padding: 0px;
+    width: 100px;
+}
+
+/*4. formatação da lista de botões na barra de navegação*/
+.header_top .header_top_content .header_top_menu {
+    flex-basis: calc(100% - 150px);
+    /*flex-basis = reserva o que sobrar de tela*/
+    display: flex;
+    justify-content: flex-end;
+    /*justify-content = alinhamento de elemento*/
+}
+
+.header_top_menu ul {
+    display: flex;
+    align-items: stretch;
+    /*alinha um do lado do outro*/
+}
+
+.header_top_menu ul li {
+    list-style: none;
+    /*retira os marcadores*/
+    display: flex;
+    align-items: center;
+    /*alinha na vertical*/
+}
+
+/*5. Efeito do mouse sobre os botões da barra de navegação*/
+.header_top_menu ul li a {
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #d8d8d8;
+}
+
+.header_top_menu ul li a:hover {
+    background-color: #b1b1b1;
+    color: #fff;
+}
+
+.header_quemsomos{
+    background-color: #228B22;
+}
+.header_quemsomos .header_quemsomos_content{
+    max-width: 1300px;
+    display: flex;
+
+}
+
+.header_quemsomos_content .foto_perfil{
+    border-radius: 5%;
+    width: 180px;
+    background-color: #fff;
+
+}
