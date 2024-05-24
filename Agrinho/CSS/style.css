@@ -65,18 +65,25 @@
     color: #fff;
 }
 
-.header_quemsomos{
+.header_quemsomos {
     background-color: #228B22;
+    max-width: 650px;
 }
-.header_quemsomos .header_quemsomos_content{
+
+.header_quemsomos .header_quemsomos_content {
     max-width: 1300px;
     display: flex;
 
 }
 
-.header_quemsomos_content .foto_perfil{
+.header_quemsomos_content .foto_perfil {
     border-radius: 5%;
     width: 180px;
     background-color: #fff;
+
+}
+
+.header_quemsomos_content_descricao .sobremim {
+    font-size: small;
 
 }
